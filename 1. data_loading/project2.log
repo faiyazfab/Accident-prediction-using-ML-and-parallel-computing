@@ -1,0 +1,11 @@
+Dask client connected with SLURM cluster successfully!
+Dataset loaded successfully from: /home/wei.shao/Project/US_Accidents_March23.csv
+Data preprocessing completed successfully.
+Cleaned dataset saved to: /home/wei.shao/Project/Cleaned_US_Accidents_March23.csv
+Correlation with Severity:
+Severity           1.000000
+Temperature(F)    -0.016518
+Visibility(mi)    -0.003871
+Wind_Speed(mph)    0.046791
+Name: Severity, dtype: float64
+Performance analysis plots saved in /home/wei.shao/Project/

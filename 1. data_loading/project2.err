@@ -1,0 +1,19 @@
+/home/wei.shao/.local/lib/python3.8/site-packages/xgboost/core.py:265: FutureWarning: Your system has an old version of glibc (< 2.28). We will stop supporting Linux distros with glibc older than 2.28 after **May 31, 2025**. Please upgrade to a recent Linux distro (with glibc 2.28+) to use future versions of XGBoost.
+Note: You have installed the 'manylinux2014' variant of XGBoost. Certain features such as GPU algorithms or federated learning are not available. To use these features, please upgrade to a recent Linux distro with glibc 2.28+, and install the 'manylinux_2_28' variant.
+  warnings.warn(
+/home/wei.shao/.local/lib/python3.8/site-packages/dask_xgboost/__init__.py:7: UserWarning: Dask-XGBoost has been deprecated and is no longer maintained. The functionality of this project has been included directly in XGBoost. To use Dask and XGBoost together, please use ``xgboost.dask`` instead https://xgboost.readthedocs.io/en/latest/tutorials/dask.html.
+  warnings.warn(
+/home/wei.shao/.local/lib/python3.8/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/home/wei.shao/.local/lib/python3.8/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/home/wei.shao/Project/project2.py:37: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  partition['Start_Time'] = pd.to_datetime(partition['Start_Time'], errors='coerce')
+/home/wei.shao/Project/project2.py:38: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  partition['End_Time'] = pd.to_datetime(partition['End_Time'], errors='coerce')
+Traceback (most recent call last):
+  File "/home/wei.shao/Project/project2.py", line 122, in <module>
+    dtrain = dxgb.DaskDMatrix(client, X_train, y_train)
+AttributeError: module 'dask_xgboost' has no attribute 'DaskDMatrix'
+/home/wei.shao/.local/lib/python3.8/site-packages/dask_jobqueue/core.py:266: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
